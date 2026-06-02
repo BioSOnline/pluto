@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "129917485933",
+    "project_id": "pluto-90404",
+    "storage_bucket": "pluto-90404.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129917485933:android:32c7e378100700788e5064",
+        "android_client_info": {
+          "package_name": "com.example.pluto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_ANDROID_API_KEY_HERE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
