@@ -89,7 +89,7 @@ class PlutoAudioService {
   }
 
   Future<void> pauseRecording() async {
-    final isRecording = await _recorder.isRecording();
+    final isRecording = (await _recorder.isRecording()) == true;
     if (!isRecording) {
       return;
     }
@@ -99,7 +99,7 @@ class PlutoAudioService {
   }
 
   Future<void> resumeRecording() async {
-    final isPaused = await _recorder.isPaused();
+    final isPaused = (await _recorder.isPaused()) == true;
     if (!isPaused) {
       return;
     }
