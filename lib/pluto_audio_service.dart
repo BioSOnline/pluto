@@ -62,8 +62,8 @@ class PlutoAudioService {
 
     final config = RecordConfig(
       encoder: encoder,
-      bitRate: 128000,
-      sampleRate: 44100,
+      bitRate: 256000,
+      sampleRate: 48000,
       numChannels: kIsWeb ? 1 : 2,
     );
 
